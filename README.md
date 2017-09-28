@@ -2,28 +2,29 @@
 
 
 
-[项目源码](https://github.com/arronf2e/Vue2.0LOL)
-[在线地址](http://omeme.me/demos/lol/)
-<p><img src="http://o9xap42x4.bkt.clouddn.com/lol.png" width="200" height="200"/></p>
-<p>微信扫一扫，查看在线DEMO</p>
+[项目源码](https://github.com/airliuchuan/tododemo)
+<p><img src="http://ol1b4oslw.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-09-28%20%E4%B8%8A%E5%8D%889.05.59.png" width="200" height="400"/></p>
+<p><img src="http://ol1b4oslw.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-09-28%20%E4%B8%8A%E5%8D%889.06.07.png" width="200" height="200"/></p>
+<p><img src="http://ol1b4oslw.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-09-28%20%E4%B8%8A%E5%8D%889.06.13.png" width="200" height="200"/></p>
+<p>项目截图</p>
 
 
 #### 1. 技术栈
 
-由 [vue-cli](https://github.com/vuejs/vue-cli) + [muse-ui](https://github.com/museui/muse-ui) 构建，使用 [axios](https://github.com/mzabriskie/axios) 进行数据的请求，使用 [vuex](https://github.com/vuejs/vuex) 进行状态管理，图片懒加载: [vue-lazyload](https://github.com/hilongjw/vue-lazyload)，轮播组件：[vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)，上拉加载: [vue-infinite-scroll](https://github.com/ElemeFE/vue-infinite-scroll)。
+由 [create-react-app]构建webpack环境 + 使用[less]css预处理器 使用 [redux]和[react-redux] 进行状态管理
 
 
 #### 2.Build Setup
 
 
-	# install dependencies
+	# 安装项目所需模块
 	npm install
 
-	# serve with hot reload at localhost:8888
-	npm run dev
+	# 运行在localhost:3000
+	npm start
 
-	# build for production with minification
+	# 生产环境打包
 	npm run build
 
-	# build for production and view the bundle analyzer report
-	npm run build --report
+	# 弹射(用于修改webpack配置, 不可逆)
+	npm run eject
